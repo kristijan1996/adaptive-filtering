@@ -61,14 +61,20 @@ filter = AdaptFilter(100, 0.01);
 On the following graphs we can see the noisy input as well as ouputs from the filter we implemented and the adaptive filter built into Matlab.
 
 <p align="center">
-  <img width="460" src="/images/filterOut.png">
+  <img width="600" src="/images/filterOut.png">
 </p>
 
 The noisy sine wave has been cleared of interferences, which can also be seen from signal spectrums.
 
 <p align="center">
-  <img width="460" src="/images/outSpectrumIn.png">
+  <img width="600" src="/images/outSpectrumIn.png">
 </p>
 <p align="center">
-  <img width="460" src="/images/outSpectrumClean.png">
+  <img width="600" src="/images/outSpectrumClean.png">
 </p>
+
+# Author
+Kristijan Mitrovic
+
+# License
+Free in every way
