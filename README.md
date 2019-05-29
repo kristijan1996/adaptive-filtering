@@ -25,7 +25,7 @@ Typically, adaptive filters are _FIR_ filters, because of the demand for stabili
   <img width="460" src="/images/2.png">
 </p>
 
-Basically, this structure allows for estimating the output sample _y(n)_ by processing input samples _x(n), x(n-1), ... x(n - L+1)_, where _L_ is the order of the filter. This estimation of output by observing current and previous inputs to the systems renders it causal, and inherently brings a delay of _L_ samples to the output.
+Basically, this structure allows for estimating the output sample _y(n)_ by processing input samples _x(n), x(n-1), ... x(n - L+1)_, where _L_ is the order of the filter. This estimation of output by observing current and previous inputs to the systems renders it causal, which means it can work in real-time if implemented, let's say, in _C_ on a microcontroller.
 The depicted _FIR_ structure boils down to simple matrix (vector) multiplication in Matlab.
 
 ## Use cases
